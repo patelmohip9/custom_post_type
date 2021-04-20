@@ -15,7 +15,6 @@ $(document).ready(function() {
             contentType: false,
             success : function(response) {
                 if(response.success) {
-                    $('.user_name').html(response.data.name);
                     alert("login successfully");
                     window.location.href = "competitions";
                 }
